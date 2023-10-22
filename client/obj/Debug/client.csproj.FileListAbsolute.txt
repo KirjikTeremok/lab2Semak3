@@ -1,0 +1,10 @@
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\bin\Debug\client.exe.config
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\bin\Debug\client.exe
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\bin\Debug\client.pdb
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.csproj.GenerateResource.cache
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.exe
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.pdb
+C:\Users\user\RiderProjects\WindowsFormsApp1\client\obj\Debug\client.Form1.resources
