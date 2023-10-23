@@ -63,13 +63,20 @@ namespace WindowsFormsApp1  // сервер
         }
         private void closeButton_Click(object sender, EventArgs e)
         {
-            /*udpClient?.Close();
-            _thread.Abort();*/
+            udpClient?.Close();
+            try
+            {
+                _thread.Abort();
+            }
+            catch
+            {
+            }
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            NameTextBox.Text = "user";
         }
 
         private void RemotePortTextbox_TextChanged(object sender, EventArgs e)
@@ -86,15 +93,22 @@ namespace WindowsFormsApp1  // сервер
         {
             UdpClient clientForSend = new UdpClient();
             IPEndPoint endPointForSend = new IPEndPoint(IPAddress.Parse(ip), remotePort);
-            byte[] data = Encoding.UTF8.GetBytes(MessageTextBox.Text);
+            byte[] data = Encoding.UTF8.GetBytes($"{NameTextBox.Text}: " + MessageTextBox.Text);
             udpClient.Send(data, data.Length, endPointForSend);
             clientForSend.Close();
+            richTextBox1.AppendText($"{NameTextBox.Text}: "+ MessageTextBox.Text);
+            MessageTextBox.Text = "";
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             udpClient?.Close();
             _thread.Join();
+        }
+
+        private void NameTextBox_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

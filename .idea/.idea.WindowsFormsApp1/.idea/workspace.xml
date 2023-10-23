@@ -4,6 +4,30 @@
     <projectFile>WindowsFormsApp1/WindowsFormsApp1.csproj</projectFile>
     <projectFile>client/client.csproj</projectFile>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:mergerFunc" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2d1a1d-aa30-445b-b3ce-85234ed5c23b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApp1/.idea/workspace.xml" afterDir="false" />
@@ -104,7 +128,8 @@
       <workItem from="1697887944673" duration="1592000" />
       <workItem from="1697972550784" duration="9076000" />
       <workItem from="1697988728826" duration="4396000" />
-      <workItem from="1698057241630" duration="883000" />
+      <workItem from="1698057241630" duration="5947000" />
+      <workItem from="1698084147329" duration="350000" />
     </task>
     <servers />
   </component>
@@ -113,26 +138,50 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="mergerFunc" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="213" key="GridCell.Tab.0.bottom" timestamp="1697988630363">
+    <state width="1342" height="141" key="GridCell.Tab.0.bottom" timestamp="1698081127164">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
-    <state width="1342" height="213" key="GridCell.Tab.0.center" timestamp="1697988630363">
+    <state width="1342" height="141" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1698081127164" />
+    <state width="1342" height="141" key="GridCell.Tab.0.center" timestamp="1698081127164">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="213" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
-    <state width="1342" height="213" key="GridCell.Tab.0.left" timestamp="1697988630363">
+    <state width="1342" height="141" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1698081127164" />
+    <state width="1342" height="141" key="GridCell.Tab.0.left" timestamp="1698081127159">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="213" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
-    <state width="1342" height="213" key="GridCell.Tab.0.right" timestamp="1697988630363">
+    <state width="1342" height="141" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1698081127159" />
+    <state width="1342" height="141" key="GridCell.Tab.0.right" timestamp="1698081127164">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="213" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
+    <state width="1342" height="141" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1698081127164" />
     <state width="1342" height="285" key="GridCell.Tab.1.bottom" timestamp="1697640477194">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

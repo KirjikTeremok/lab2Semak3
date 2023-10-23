@@ -40,6 +40,8 @@ namespace WindowsFormsApp1
             this.label2 = new System.Windows.Forms.Label();
             this.MessageTextBox = new System.Windows.Forms.TextBox();
             this.SendButton = new System.Windows.Forms.Button();
+            this.NameTextBox = new System.Windows.Forms.TextBox();
+            this.labelN = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // inputButton
@@ -119,11 +121,29 @@ namespace WindowsFormsApp1
             this.SendButton.UseVisualStyleBackColor = true;
             this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
             // 
+            // NameTextBox
+            // 
+            this.NameTextBox.Location = new System.Drawing.Point(252, 397);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(287, 22);
+            this.NameTextBox.TabIndex = 9;
+            this.NameTextBox.TextChanged += new System.EventHandler(this.NameTextBox_TextChanged);
+            // 
+            // labelN
+            // 
+            this.labelN.Location = new System.Drawing.Point(128, 397);
+            this.labelN.Name = "labelN";
+            this.labelN.Size = new System.Drawing.Size(103, 19);
+            this.labelN.TabIndex = 10;
+            this.labelN.Text = "введите имя";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelN);
+            this.Controls.Add(this.NameTextBox);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.MessageTextBox);
             this.Controls.Add(this.label2);
@@ -135,10 +155,14 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.inputButton);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.Label labelN;
+        private System.Windows.Forms.TextBox NameTextBox;
 
         private System.Windows.Forms.TextBox MessageTextBox;
         private System.Windows.Forms.Button SendButton;
