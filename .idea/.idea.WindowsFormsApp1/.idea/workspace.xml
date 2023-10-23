@@ -31,12 +31,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2d1a1d-aa30-445b-b3ce-85234ed5c23b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +123,7 @@
       <workItem from="1697972550784" duration="9076000" />
       <workItem from="1697988728826" duration="4396000" />
       <workItem from="1698057241630" duration="5947000" />
-      <workItem from="1698084147329" duration="350000" />
+      <workItem from="1698084147329" duration="960000" />
     </task>
     <servers />
   </component>
