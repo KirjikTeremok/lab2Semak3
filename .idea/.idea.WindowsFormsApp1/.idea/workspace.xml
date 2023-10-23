@@ -5,11 +5,22 @@
     <projectFile>client/client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d1a1d-aa30-445b-b3ce-85234ed5c23b" name="Default Changelist" comment="" />
+    <list default="true" id="1a2d1a1d-aa30-445b-b3ce-85234ed5c23b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WindowsFormsApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/956ABBF9-4F18-4921-9418-742CD2E198A3/6f/5b4e3709/Application.cs" root0="SKIP_HIGHLIGHTING" />
@@ -35,9 +46,10 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29977116" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.client">
+  <component name="RunManager" selected=".NET Project.WindowsFormsApp1">
     <configuration name="WindowsFormsApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -90,7 +102,9 @@
       <workItem from="1697820593674" duration="1490000" />
       <workItem from="1697838613481" duration="3359000" />
       <workItem from="1697887944673" duration="1592000" />
-      <workItem from="1697972550784" duration="1513000" />
+      <workItem from="1697972550784" duration="9076000" />
+      <workItem from="1697988728826" duration="4396000" />
+      <workItem from="1698057241630" duration="883000" />
     </task>
     <servers />
   </component>
@@ -103,22 +117,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="64" key="GridCell.Tab.0.bottom" timestamp="1697973029106">
+    <state width="1342" height="213" key="GridCell.Tab.0.bottom" timestamp="1697988630363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="64" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1697973029106" />
-    <state width="1342" height="64" key="GridCell.Tab.0.center" timestamp="1697973029106">
+    <state width="1342" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
+    <state width="1342" height="213" key="GridCell.Tab.0.center" timestamp="1697988630363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="64" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1697973029106" />
-    <state width="1342" height="64" key="GridCell.Tab.0.left" timestamp="1697973029105">
+    <state width="1342" height="213" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
+    <state width="1342" height="213" key="GridCell.Tab.0.left" timestamp="1697988630363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="64" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1697973029105" />
-    <state width="1342" height="64" key="GridCell.Tab.0.right" timestamp="1697973029106">
+    <state width="1342" height="213" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
+    <state width="1342" height="213" key="GridCell.Tab.0.right" timestamp="1697988630363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="64" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1697973029106" />
+    <state width="1342" height="213" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1697988630363" />
     <state width="1342" height="285" key="GridCell.Tab.1.bottom" timestamp="1697640477194">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

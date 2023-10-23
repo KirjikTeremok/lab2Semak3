@@ -38,6 +38,8 @@ namespace WindowsFormsApp1
             this.label1 = new System.Windows.Forms.Label();
             this.LocalPortTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.MessageTextBox = new System.Windows.Forms.TextBox();
+            this.SendButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // inputButton
@@ -100,11 +102,30 @@ namespace WindowsFormsApp1
             this.label2.TabIndex = 6;
             this.label2.Text = "свой порт";
             // 
+            // MessageTextBox
+            // 
+            this.MessageTextBox.Location = new System.Drawing.Point(250, 30);
+            this.MessageTextBox.Name = "MessageTextBox";
+            this.MessageTextBox.Size = new System.Drawing.Size(290, 22);
+            this.MessageTextBox.TabIndex = 7;
+            // 
+            // SendButton
+            // 
+            this.SendButton.Location = new System.Drawing.Point(250, 85);
+            this.SendButton.Name = "SendButton";
+            this.SendButton.Size = new System.Drawing.Size(289, 36);
+            this.SendButton.TabIndex = 8;
+            this.SendButton.Text = "отправить сообщение";
+            this.SendButton.UseVisualStyleBackColor = true;
+            this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.SendButton);
+            this.Controls.Add(this.MessageTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.LocalPortTextBox);
             this.Controls.Add(this.label1);
@@ -114,10 +135,13 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.inputButton);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.TextBox MessageTextBox;
+        private System.Windows.Forms.Button SendButton;
 
         private System.Windows.Forms.TextBox RemotePortTextbox;
 

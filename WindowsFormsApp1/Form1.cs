@@ -10,7 +10,8 @@ namespace WindowsFormsApp1  // сервер
     public partial class Form1 : Form
     {
         private int localPort = 0;
-        //private const string ip = "127.0.0.1";
+        private int remotePort = 0;
+        private const string ip = "127.0.0.1";
         private Thread _thread;
         private IPEndPoint _endPoint;
         private UdpClient udpClient;
@@ -23,7 +24,7 @@ namespace WindowsFormsApp1  // сервер
 
         private void inputButton_Click(object sender, EventArgs e)
         {
-            if (localPort != 0)
+            if (localPort != 0 && remotePort != 0)
             {
                 try
                 {
@@ -52,24 +53,18 @@ namespace WindowsFormsApp1  // сервер
         {
             byte[] data = null;
             for (;;)
-            {
-                try
-                {
-                    _endPoint = new IPEndPoint(IPAddress.Any, localPort);
-                    data = udpClient.Receive(ref _endPoint);
-                }
-                catch
-                {
-                    MessageBox.Show(@"ошибка на стадии _endpoint и byte");
-                    
-                }
+            { 
+                _endPoint = new IPEndPoint(IPAddress.Any, localPort);
+                data = udpClient.Receive(ref _endPoint);
+                
                 richTextBox1.AppendText(Encoding.UTF8.GetString(data ?? throw new InvalidOperationException()));
+                richTextBox1.AppendText("\n");
             }
         }
         private void closeButton_Click(object sender, EventArgs e)
         {
-            if (udpClient!=null) udpClient.Close();
-            _thread.Join();
+            /*udpClient?.Close();
+            _thread.Abort();*/
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -79,13 +74,27 @@ namespace WindowsFormsApp1  // сервер
 
         private void RemotePortTextbox_TextChanged(object sender, EventArgs e)
         {
-            
+            remotePort = int.Parse(RemotePortTextbox.Text);
         }
 
         private void LocalPortTextBox_TextChanged(object sender, EventArgs e)
         {
             localPort = int.Parse(LocalPortTextBox.Text);
         }
-        
+
+        private void SendButton_Click(object sender, EventArgs e)
+        {
+            UdpClient clientForSend = new UdpClient();
+            IPEndPoint endPointForSend = new IPEndPoint(IPAddress.Parse(ip), remotePort);
+            byte[] data = Encoding.UTF8.GetBytes(MessageTextBox.Text);
+            udpClient.Send(data, data.Length, endPointForSend);
+            clientForSend.Close();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            udpClient?.Close();
+            _thread.Join();
+        }
     }
 }
