@@ -96,7 +96,7 @@ namespace WindowsFormsApp1  // сервер
             byte[] data = Encoding.UTF8.GetBytes($"{NameTextBox.Text}: " + MessageTextBox.Text);
             udpClient.Send(data, data.Length, endPointForSend);
             clientForSend.Close();
-            richTextBox1.AppendText($"{NameTextBox.Text}: "+ MessageTextBox.Text);
+            richTextBox1.AppendText($"{NameTextBox.Text}: "+ MessageTextBox.Text + "\n");
             MessageTextBox.Text = "";
         }
 
